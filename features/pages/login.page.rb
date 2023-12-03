@@ -1,9 +1,9 @@
 class LoginPage < SitePrism::Page
 
     set_url ""
-    element :emailField, :id, "session_key"
-    element :passwordField, :id, "session_password"
-    element :loginButton, :xpath, "//*[@id='main-content']/section[1]/div/div/form/div[2]/button"
+    element :emailField, :xpath, "//*[@id='app']/section/div/div/section/div[1]/div/form/div[1]/input"
+    element :passwordField, :xpath, "//*[@id='app']/section/div/div/section/div[1]/div/form/div[2]/input"
+    element :loginButton, :xpath, "//*[@id='app']/section/div/div/section/div[1]/div/form/div[3]/button"
 
     def userLogin(email, pwd)
         emailField.set(email)
