@@ -1,1 +1,41 @@
 cucumber --format html --out=<filename>.html
+
+Dado('que o usuario queira mudar a linguagem do site') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando('ele clicar na bandeira americana') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Entao('deve ser alterado o idioma do site') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Dado('que o usuario queira criar uma camada incompleta') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando('ele clicar em criar uma camada') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Entao('deve ser renderizado uma mensagem de erro') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Dado('que o usuario logado queira visualizar um mapa antigo') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando('ele clicar no mapa do ano desejado') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Entao('o novo mapa deve ser renderizado') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Entao('o mapa antigo deve ser desselecionado') do
+  pending # Write code here that turns the phrase above into concrete actions
+end
