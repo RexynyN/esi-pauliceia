@@ -1,8 +1,3 @@
-# Before do
-#   @mapPage = NavPage.new
-#   @mapPage.navMap
-# end
-
 Dado('que o usuario logado queira buscar um local') do
   @test = SearchPlacePage.new
   @test.load
