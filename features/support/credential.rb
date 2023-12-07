@@ -1,8 +1,8 @@
 CREDENTIAL = {
     user: {
-        email: "teste@gmail.com",
-        password: "teste123",
-        name: "John Doe",
-        username: "JoDoe"
+        email: "deftew@javdeno.site",
+        password: "coxinha123",
+        name: "Zezinho Pernafina",
+        username: "ZePF"
     }
 }

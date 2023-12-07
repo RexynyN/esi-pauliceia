@@ -3,11 +3,11 @@ Dado('que o usuario queira ir para a tela de Mapa') do
   @test.load
 end
 
-Dado('ele clicar em Mapa') do
-  @test.navMap
+Quando('ele clicar em Mapa') do
+  @test.clickNavMap
 end
 
-Dado('deve acessar a tela de Mapa com sucesso') do
+Entao('deve acessar a tela de Mapa com sucesso') do
   @home = HomePage.new
   @home.checkNavMapSuccessful
 end
