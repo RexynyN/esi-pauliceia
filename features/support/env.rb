@@ -12,5 +12,4 @@ Capybara.configure do |config|
     config.app_host = "https://pauliceia.unifesp.br"
     config.default_max_wait_time = 5
     config.ignore_hidden_elements = false
-
 end

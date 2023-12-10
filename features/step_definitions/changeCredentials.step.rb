@@ -15,6 +15,7 @@ end
 Entao('deve ser alterado o nome e o username') do
     # Ele vai tão rápido que as mudanças nn tem tempo pra processar
     sleep 3
+    # esse teste está dando erros as vezes, mas deve estar funcionando
     @prof.load
     expect(@prof).to have_secret_value 
     @prof.nameChanger(CREDENTIAL[:user][:name], CREDENTIAL[:user][:username])
